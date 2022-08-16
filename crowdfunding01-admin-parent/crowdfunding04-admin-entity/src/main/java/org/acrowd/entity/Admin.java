@@ -1,4 +1,4 @@
-package com.atguigu.crowd.entity;
+package org.acrowd.entity;
 
 public class Admin {
     private Integer id;
@@ -59,5 +59,17 @@ public class Admin {
 
     public void setCreateTime(String createTime) {
         this.createTime = createTime == null ? null : createTime.trim();
+    }
+
+    @Override
+    public String toString() {
+        return "Admin{" +
+                "id=" + id +
+                ", login='" + login + '\'' +
+                ", userPswd='" + userPswd + '\'' +
+                ", userName='" + userName + '\'' +
+                ", email='" + email + '\'' +
+                ", createTime='" + createTime + '\'' +
+                '}';
     }
 }

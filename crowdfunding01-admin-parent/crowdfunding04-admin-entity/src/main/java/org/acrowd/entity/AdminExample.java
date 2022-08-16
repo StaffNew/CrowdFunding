@@ -1,4 +1,4 @@
-package com.atguigu.crowd.entity;
+package org.acrowd.entity;
 
 import java.util.ArrayList;
 import java.util.List;
